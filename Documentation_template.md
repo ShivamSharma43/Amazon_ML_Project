@@ -41,7 +41,7 @@ Product Images --------------┘
                              │
                 ┌────────────┼─────────────┐
                 │            │             │
-          3 fold LightGBM      XGBoost       CatBoost
+          n fold LightGBM n fold  XGBoost  n fold  CatBoost
                 │            │             │
                 └────── Weighted Ensemble ─┘
                              │
@@ -78,13 +78,11 @@ Our approach demonstrates how multimodal embeddings combined with gradient boost
 
 ## Appendix
 
-### A. Code artefacts
-Drive/Kaggle Link: [Add your final code + notebooks link here]
+### A. Embeddings files
+Drive Link: (https://drive.google.com/drive/folders/1qbW4O8mvxK-IvD_7OLrpKQXRJl24Rrl0?usp=sharing)
 
 
 ### B. Additional Results
-Validation curves and RMSE logs from LightGBM
-SMAPE trends with increasing dataset size
-Feature importance plots for the ensemble models
+Result on test data was SMAPE of 55.367.
 
 ---
